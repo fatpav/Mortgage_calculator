@@ -1,3 +1,64 @@
-.appliation-form{
+.input1{
+
+
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;    
     
+}
+
+.input2{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;    
+    
+
+}
+
+.input3{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;    
+    
+}
+
+.button{
+    color: #333;
+border: 1px solid orange;
+border-bottom: 5px solid orange;
+background-color: #fff;
+font-size: 12px;
+margin: 5px;
+padding: 1px 7px 1px 7px;
+display: inline-block;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+position: relative;
+top: 0px;
+}
+
+.Button:hover{
+cursor: hand; 
+cursor: pointer;
+}
+
+.Button:active{
+border-bottom: 3px solid #999;
+top: 3px;
 }

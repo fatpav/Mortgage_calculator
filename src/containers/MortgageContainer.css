@@ -1,6 +1,16 @@
 .Mortgage-Container {
 
-    background-color: blue;
-    margin: 0px;
-    height: max-content;
+
+    
+    background-image: url('https://i.pinimg.com/originals/04/14/be/0414be174bc8755e5ded5460daf039e5.png');
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
+
+
+
