@@ -36,12 +36,12 @@
 
 .button{
     color: #333;
-border: 1px solid orange;
-border-bottom: 5px solid orange;
-background-color: #fff;
+border: 1px solid rgb(1, 88, 23);
+border-bottom: 5px solid rgb(14, 77, 1);
+background-color: rgb(9, 255, 0);
 font-size: 12px;
 margin: 5px;
-padding: 1px 7px 1px 7px;
+padding: 10px 17px 11px 17px;
 display: inline-block;
 -webkit-touch-callout: none;
 -webkit-user-select: none;
@@ -53,12 +53,12 @@ position: relative;
 top: 0px;
 }
 
-.Button:hover{
+.button:hover{
 cursor: hand; 
 cursor: pointer;
 }
 
-.Button:active{
+.button:active{
 border-bottom: 3px solid #999;
 top: 3px;
 }
