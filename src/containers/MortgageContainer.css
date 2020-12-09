@@ -2,7 +2,8 @@
 
 
     
-    background-image: url('https://i.pinimg.com/originals/04/14/be/0414be174bc8755e5ded5460daf039e5.png');
+    background-image: url('https://www.techicy.com/wp-content/uploads/2019/04/Free-Stock-Photos.jpg');
+    background-position: inherit;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: fixed;
@@ -23,9 +24,9 @@
   -webkit-box-shadow: 2px 2px 6px rgb(0, 0, 0);  
   box-shadow:2px 2px 6px rgb(0, 0, 0);  
   text-align:center;
-  display:block;
+  display: inline-flex;
   margin:16px;
-    
+  background-image: url('https://media.istockphoto.com/photos/mountain-landscape-ponta-delgada-island-azores-picture-id944812540?k=6&m=944812540&s=612x612&w=0&h=wRP1lyorzHta0IhG-YIMiqkNsAIre8yQRfY7NaR_r0g=') ;  
 }
 
 
