@@ -17,7 +17,7 @@ const MortgageContainer = () => {
 
     return (
         <div className= "Mortgage-Container">
-        <h1>Hello, I am your mortgage!</h1>
+        <h1 className = "heading">Hello, I am your mortgage!</h1>
         <ApplicationForm onApplicationSubmit = {onApplicationSubmit} />
         <MortgageCalculator salary1={salary1} salary2={salary2} deposit={deposit}/>
         </div>
