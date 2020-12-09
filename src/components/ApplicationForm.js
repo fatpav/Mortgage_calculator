@@ -32,7 +32,7 @@ const ApplicationForm = ({onApplicationSubmit}) => {
     } 
 
     return (
-        <form classname="application-form" onSubmit={MortgageCalculator}>
+        <form classname="application-form" onSubmit={handleFormSubmit}>
             <input type="number"
                 placeholder="Enter salary"
                 value={salary1}
@@ -43,8 +43,7 @@ const ApplicationForm = ({onApplicationSubmit}) => {
                 onChange={handleSalary2Change}/>
             <input
                 type="submit"
-                value="Post"
-            />
+                value="Post"/>
         </form>
     )
 };
