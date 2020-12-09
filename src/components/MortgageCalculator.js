@@ -1,10 +1,11 @@
-const MortgageCalculator = (props) => {
 
-    const result = (props.salary1 + props.salary2)*3;
-        
+const MortgageCalculator = ({salary1, salary2, deposit}) => {
+
+    
+    const result = (salary1 *3) + (salary2 *3) + +deposit;
 
     return (
-        <p>{result}</p>
+        <p>Your Mortgage Value is £{result}</p>
     )
 }
 
