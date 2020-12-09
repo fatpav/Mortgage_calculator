@@ -1,7 +1,10 @@
-const MortgageCalculator = () => {
+const MortgageCalculator = (salary1, salary2) => {
+
+    const result = (salary1 + salary2)*3;
+        
 
     return (
-        <p>I am the Calculator!</p>
+        <p>{result}</p>
     )
 }
 
